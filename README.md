@@ -1,2 +1,3 @@
-# reorg.dynamic-programming-squared
+# lecture-dps
+
 Dynamic Programming Squared
