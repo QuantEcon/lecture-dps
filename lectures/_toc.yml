@@ -1,0 +1,21 @@
+format: jb-book
+root: intro
+parts:
+- caption: Dynamic Programming Squared
+  numbered: true
+  chapters:
+  - file: un_insure
+  - file: dyn_stack
+  - file: calvo
+  - file: opt_tax_recur
+  - file: amss
+  - file: amss2
+  - file: amss3
+  - file: chang_ramsey
+  - file: chang_credible
+- caption: Other
+  numbered: true
+  chapters:
+  - file: troubleshooting
+  - file: zreferences
+  - file: status
