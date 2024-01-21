@@ -1,7 +1,7 @@
-name: lecture-python
+name: lecture-dps
 channels:
   - default
 dependencies:
-  - python=3.8
+  - python=3.11
   - anaconda
 

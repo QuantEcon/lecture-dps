@@ -1,7 +1,7 @@
-# lecture-python.notebooks
+# lecture-dps.notebooks
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/QuantEcon/lecture-python.notebooks/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/QuantEcon/lecture-dps.notebooks/master)
 
-Notebooks for https://python.quantecon.org
+Notebooks for https://dps.quantecon.org
 
-**Note:** This README should be edited [here](https://github.com/quantecon/lecture-python.myst/_notebook_repo)
+**Note:** This README should be edited [here](https://github.com/quantecon/lecture-dps/_notebook_repo)
