@@ -1,6 +1,6 @@
 # lecture-dps.notebooks
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/QuantEcon/lecture-dps.notebooks/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/QuantEcon/lecture-dps.notebooks/main)
 
 Notebooks for https://dps.quantecon.org
 
