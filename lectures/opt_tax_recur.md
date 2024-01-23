@@ -63,7 +63,7 @@ we shall define the state vector artfully.
 In particular, we shall include forward-looking variables that summarize  optimal
 responses of private agents to a Ramsey plan.
 
-See {doc}`Optimal taxation <lqramsey>` for analysis within a linear-quadratic setting.
+See {doc}`Optimal taxation <dle:lqramsey>` for analysis within a linear-quadratic setting.
 
 Let's start with some standard imports:
 
