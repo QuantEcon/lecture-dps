@@ -82,33 +82,33 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
-      # - name: Deploy website to gh-pages
-      #   uses: peaceiris/actions-gh-pages@v3
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     publish_dir: _build/html/
+      - name: Deploy website to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: _build/html/
       #     cname: dps.quantecon.org
       - name: Upload "_build" folder (cache)
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: build-publish
           path: _build
       # Sync notebooks
-      # - name: Prepare lecture-dps.notebooks sync
-      #   shell: bash -l {0}
-      #   run: |
-      #     mkdir -p _build/lecture-dps.notebooks
-      #     cp -a _notebook_repo/. _build/lecture-dps.notebooks
-      #     cp _build/jupyter/*.ipynb _build/lecture-dps.notebooks
-      #     ls -a _build/lecture-dps.notebooks
-      # - name: Commit latest notebooks to lecture-dps.notebooks
-      #   uses: cpina/github-action-push-to-another-repository@main
-      #   env:
-      #     API_TOKEN_GITHUB: ${{ secrets.QUANTECON_SERVICES_PAT }}
-      #   with:
-      #     source-directory: '_build/lecture-dps.notebooks/'
-      #     destination-repository-username: 'QuantEcon'
-      #     destination-repository-name: 'lecture-dps.notebooks'
-      #     commit-message: 'auto publishing updates to notebooks'
-      #     destination-github-username: 'quantecon-services'
-      #     user-email: services@quantecon.org
+      - name: Prepare lecture-dps.notebooks sync
+        shell: bash -l {0}
+        run: |
+          mkdir -p _build/lecture-dps.notebooks
+          cp -a _notebook_repo/. _build/lecture-dps.notebooks
+          cp _build/jupyter/*.ipynb _build/lecture-dps.notebooks
+          ls -a _build/lecture-dps.notebooks
+      - name: Commit latest notebooks to lecture-dps.notebooks
+        uses: cpina/github-action-push-to-another-repository@main
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.QUANTECON_SERVICES_PAT }}
+        with:
+          source-directory: '_build/lecture-dps.notebooks/'
+          destination-repository-username: 'QuantEcon'
+          destination-repository-name: 'lecture-dps.notebooks'
+          commit-message: 'auto publishing updates to notebooks'
+          destination-github-username: 'quantecon-services'
+          user-email: services@quantecon.org
