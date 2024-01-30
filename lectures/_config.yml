@@ -74,11 +74,6 @@ sphinx:
           url: http://www.tomsargent.com/
         - name: John Stachurski
           url: https://johnstachurski.net/
-      authors:
-        - name: Thomas J. Sargent
-          url: http://www.tomsargent.com/
-        - name: John Stachurski
-          url: https://johnstachurski.net/
       header_organisation_url: https://quantecon.org
       header_organisation: QuantEcon
       repository_url: https://github.com/QuantEcon/lecture-dps
@@ -88,10 +83,8 @@ sphinx:
       og_logo_url: https://assets.quantecon.org/img/qe-og-logo.png
       description: This website presents a set of lectures on advanced topics in dynamic programming.
       keywords: Python, QuantEcon, Quantitative Economics, Economics, Sloan, Alfred P. Sloan Foundation, Tom J. Sargent, John Stachurski
-
-      #analytics:
-        #google_analytics_id: G-J0SMYR4SG3
-        
+      analytics:
+        google_analytics_id: G-E8SYFS4JB4
       launch_buttons:
         colab_url                 : https://colab.research.google.com
     intersphinx_mapping:
