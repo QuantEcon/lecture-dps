@@ -43,7 +43,7 @@ and for all by the Stackelberg leader at time $0$.
 To facilitate computation and interpretation, we formulate things in a
 context that allows us to apply dynamic programming for linear-quadratic models.
 
-Technically, our calculations are closely related to ones described [this lecture](https://python.quantecon.org/lagrangian_lqdp.html).
+Technically, our calculations are closely related to ones described {doc}`this lecture <dle:lagrangian_lqdp>`.
 
 From the beginning, we carry along a linear-quadratic model of duopoly in
 which firms face adjustment costs that make them want to forecast
@@ -1413,7 +1413,7 @@ v2_direct_alt = - z[:, 0].T @ lq1.P @ z[:, 0] + lq1.d
 It is enlightening to compare equilbrium values for firms 1 and 2 under two alternative 
 settings:
   
-  * A Markov perfect equilibrium like that described in [this lecture](https://python.quantecon.org/markov_perf.html)
+  * A Markov perfect equilibrium like that described in {doc}`this lecture <eqm:markov_perf>`
   * A Stackelberg equilbrium 
 
 The following code performs the required computations, then plots the continuation values.

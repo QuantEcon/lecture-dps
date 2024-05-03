@@ -282,10 +282,10 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="expanded">Hide code cell output</span>
 </summary>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: polytope in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (0.2.4)
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: polytope in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (0.2.5)
 Requirement already satisfied: networkx&gt;=3.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from polytope) (3.1)
-Requirement already satisfied: numpy&gt;=1.24.1 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from polytope) (1.24.3)
-Requirement already satisfied: scipy&gt;=1.10.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from polytope) (1.11.1)
+Requirement already satisfied: numpy&gt;=1.24.1 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from polytope) (1.26.4)
+Requirement already satisfied: scipy&gt;=1.10.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from polytope) (1.11.4)
 </pre></div>
 </div>
 </div>
@@ -1531,7 +1531,7 @@ Maximum difference when updating hyperplane levels:
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0.00001]
-Convergence achieved after 16 iterations and 43.23             seconds
+Convergence achieved after 16 iterations and 42.36             seconds
 </pre></div>
 </div>
 </div>
@@ -1572,7 +1572,7 @@ Convergence achieved after 16 iterations and 43.23             seconds
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/14f9399b7dc338a55db52dca4d579dcf2b151b52c61aa4b6e5c62d12c45a30a9.png" src="_images/14f9399b7dc338a55db52dca4d579dcf2b151b52c61aa4b6e5c62d12c45a30a9.png" />
+<img alt="_images/b3d9b51d2479e500aa9f3efd736e200430d7ea3d2a3998026773c19ff99bda30.png" src="_images/b3d9b51d2479e500aa9f3efd736e200430d7ea3d2a3998026773c19ff99bda30.png" />
 </div>
 </div>
 <div class="cell docutils container">
@@ -1709,7 +1709,7 @@ Maximum difference when updating hyperplane levels:
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>[0.00001]
-Convergence achieved after 40 iterations and 125.21             seconds
+Convergence achieved after 40 iterations and 122.58             seconds
 </pre></div>
 </div>
 </div>
@@ -1721,7 +1721,7 @@ Convergence achieved after 40 iterations and 125.21             seconds
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/205d89766e613aec7929ec98ef2b635a6e70bbbea8ceec45031fe135c0b49f40.png" src="_images/205d89766e613aec7929ec98ef2b635a6e70bbbea8ceec45031fe135c0b49f40.png" />
+<img alt="_images/51d4aecfae8147a53cdd6cedd911ee3f219dae638d3ef0f5db33bd7eaac8e65a.png" src="_images/51d4aecfae8147a53cdd6cedd911ee3f219dae638d3ef0f5db33bd7eaac8e65a.png" />
 </div>
 </div>
 </section>
@@ -1780,7 +1780,7 @@ differ only in the level of <span class="math notranslate nohighlight">\(\beta\)
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2499/1608401414.py:33: RuntimeWarning: invalid value encountered in log
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2455/1608401414.py:33: RuntimeWarning: invalid value encountered in log
   uc = lambda c: np.log(c)
 </pre></div>
 </div>
@@ -1794,11 +1794,23 @@ differ only in the level of <span class="math notranslate nohighlight">\(\beta\)
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2499/1608401414.py:309: RuntimeWarning: invalid value encountered in log
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2455/1608401414.py:382: DeprecationWarning: Conversion of an array with ndim &gt; 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  p_iter1[i] = -p_fun(res.x)
+/tmp/ipykernel_2455/1608401414.py:309: RuntimeWarning: invalid value encountered in log
   uc = lambda c: np.log(c)
 </pre></div>
 </div>
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Convergence achieved after 15 iterations
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2455/1608401414.py:427: DeprecationWarning: Conversion of an array with ndim &gt; 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  p_grid[i] = p
+/tmp/ipykernel_2455/1608401414.py:444: DeprecationWarning: Conversion of an array with ndim &gt; 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  resid_grid[i] = np.dot(cheb.chebvander(scale, order-1), c) - p
+</pre></div>
+</div>
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2455/1608401414.py:468: DeprecationWarning: Conversion of an array with ndim &gt; 0 to a scalar is deprecated, and will error in future. Ensure you extract a single element from your array before performing this operation. (Deprecated NumPy 1.25.)
+  θ_series[0] = res.x
 </pre></div>
 </div>
 <div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages/scipy/optimize/_optimize.py:404: RuntimeWarning: Values in x were outside bounds during a minimize step, clipping to bounds
@@ -1842,7 +1854,7 @@ of equilibrium values plotted above</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/4737fb644598e0e00fe835f645f84851699eb49b78786d67a770701fc8c09afc.png" src="_images/4737fb644598e0e00fe835f645f84851699eb49b78786d67a770701fc8c09afc.png" />
+<img alt="_images/6194ac4e9f69fe9b3b87cfd15bfba1e06d6531ef1dcb9be50b337290ca2bb041.png" src="_images/6194ac4e9f69fe9b3b87cfd15bfba1e06d6531ef1dcb9be50b337290ca2bb041.png" />
 </div>
 </div>
 <p>The next figure plots the optimal policy functions; values of
@@ -1868,8 +1880,8 @@ of equilibrium values plotted above</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/149407f3f959d9aec8e96c4b6d6c8e95922b8f20517cc2b8ae0f541b28a2b69e.png" src="_images/149407f3f959d9aec8e96c4b6d6c8e95922b8f20517cc2b8ae0f541b28a2b69e.png" />
-<img alt="_images/356e8783de32dfdea15a393dc4cd9a7c6631b12843cf22215809e04c72e5bb5c.png" src="_images/356e8783de32dfdea15a393dc4cd9a7c6631b12843cf22215809e04c72e5bb5c.png" />
+<img alt="_images/bbf83ecc9d4f06ce626056ffc9dfbc79bd27517d2e739d249e79278e4bd13734.png" src="_images/bbf83ecc9d4f06ce626056ffc9dfbc79bd27517d2e739d249e79278e4bd13734.png" />
+<img alt="_images/e0807c667e0fea555b4fc581ca4c87290706d884670906c743acf3446705e8f3.png" src="_images/e0807c667e0fea555b4fc581ca4c87290706d884670906c743acf3446705e8f3.png" />
 </div>
 </div>
 <p>With the first set of parameter values,  the value of <span class="math notranslate nohighlight">\(\theta'\)</span> chosen by the Ramsey
@@ -1896,7 +1908,7 @@ intersects in the interior.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/9daf0a7e5e10d266f43daf6c4da75ae041439baf0b46791626ec9ca5c5ee5f12.png" src="_images/9daf0a7e5e10d266f43daf6c4da75ae041439baf0b46791626ec9ca5c5ee5f12.png" />
+<img alt="_images/7812748865fcedfce04c1035fb19eec66652b44f03d1abc08e755a24249f0355.png" src="_images/7812748865fcedfce04c1035fb19eec66652b44f03d1abc08e755a24249f0355.png" />
 </div>
 </div>
 <p>Subproblem 2 is equivalent to the planner choosing the initial value of
@@ -1924,8 +1936,8 @@ equilibrium.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/1977dc0957475bf3f05bc19ac5791a64f5a9ed7ff94793caad2875d1223b0000.png" src="_images/1977dc0957475bf3f05bc19ac5791a64f5a9ed7ff94793caad2875d1223b0000.png" />
-<img alt="_images/fc609686b44276c36cae383ba2d98e625b61cb1e360761ae13bac674c4b67ff2.png" src="_images/fc609686b44276c36cae383ba2d98e625b61cb1e360761ae13bac674c4b67ff2.png" />
+<img alt="_images/e2bd827a17a981c497c91d9989ebd04a8e3fcf96841feec0c22d3dc544eeac5f.png" src="_images/e2bd827a17a981c497c91d9989ebd04a8e3fcf96841feec0c22d3dc544eeac5f.png" />
+<img alt="_images/01a7c260eff17dcb59e63bc57c657fa8d5736daabc07a8e61be463961360d028.png" src="_images/01a7c260eff17dcb59e63bc57c657fa8d5736daabc07a8e61be463961360d028.png" />
 </div>
 </div>
 <section id="next-steps">

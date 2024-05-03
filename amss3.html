@@ -284,21 +284,21 @@ const thebe_selector_output = ".output, .cell_output"
 <span class="expanded">Hide code cell output</span>
 </summary>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: quantecon in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (0.7.1)
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: quantecon in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (0.7.2)
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: numba&gt;=0.49.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (0.57.1)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: numpy&gt;=1.17.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.24.3)
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: numba&gt;=0.49.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (0.59.1)
+Requirement already satisfied: numpy&gt;=1.17.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.26.4)
 Requirement already satisfied: requests in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (2.31.0)
-Requirement already satisfied: scipy&gt;=1.5.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.1)
-Requirement already satisfied: sympy in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.1)
-Requirement already satisfied: llvmlite&lt;0.41,&gt;=0.40.0dev0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from numba&gt;=0.49.0-&gt;quantecon) (0.40.0)
-Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2.0.4)
+Requirement already satisfied: scipy&gt;=1.5.0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.11.4)
+Requirement already satisfied: sympy in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from quantecon) (1.12)
+Requirement already satisfied: llvmlite&lt;0.43,&gt;=0.42.0dev0 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from numba&gt;=0.49.0-&gt;quantecon) (0.42.0)
+</pre></div>
+</div>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2.0.4)
 Requirement already satisfied: idna&lt;4,&gt;=2.5 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (3.4)
-Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (1.26.16)
-Requirement already satisfied: certifi&gt;=2017.4.17 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2023.7.22)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2.0.7)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from requests-&gt;quantecon) (2024.2.2)
 Requirement already satisfied: mpmath&gt;=0.19 in /home/runner/miniconda3/envs/quantecon/lib/python3.11/site-packages (from sympy-&gt;quantecon) (1.3.0)
 </pre></div>
 </div>
@@ -1035,15 +1035,15 @@ government debt equal to <span class="math notranslate nohighlight">\(-.5\)</spa
   warnings.warn(&quot;Values in x were outside bounds during a &quot;
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2224/108196118.py:24: RuntimeWarning: divide by zero encountered in reciprocal
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2277/108196118.py:24: RuntimeWarning: divide by zero encountered in reciprocal
   U = (c**(1 - σ) - 1) / (1 - σ)
-/tmp/ipykernel_2224/108196118.py:29: RuntimeWarning: divide by zero encountered in power
+/tmp/ipykernel_2277/108196118.py:29: RuntimeWarning: divide by zero encountered in power
   return c**(-self.σ)
-/tmp/ipykernel_2224/1277371586.py:249: RuntimeWarning: invalid value encountered in divide
+/tmp/ipykernel_2277/1277371586.py:249: RuntimeWarning: invalid value encountered in divide
   x * u_c / Eu_c - u_c * (c - T) - Un(c, n) * n - β * xprime,
 </pre></div>
 </div>
-<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2224/1277371586.py:249: RuntimeWarning: invalid value encountered in multiply
+<div class="output stderr highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>/tmp/ipykernel_2277/1277371586.py:249: RuntimeWarning: invalid value encountered in multiply
   x * u_c / Eu_c - u_c * (c - T) - Un(c, n) * n - β * xprime,
 </pre></div>
 </div>
@@ -1506,7 +1506,7 @@ government debt equal to <span class="math notranslate nohighlight">\(-.5\)</spa
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>9.047094182757221e-11
 </pre></div>
 </div>
-<img alt="_images/c97bc5be0b4242c9e6e470b922ae3c67adf023c4104a0e052c9d06dbd82d8eb6.png" src="_images/c97bc5be0b4242c9e6e470b922ae3c67adf023c4104a0e052c9d06dbd82d8eb6.png" />
+<img alt="_images/7a966a236e9c56997ed693fafbf263fef4b9a5cd711c5965d99869491ffd0a03.png" src="_images/7a966a236e9c56997ed693fafbf263fef4b9a5cd711c5965d99869491ffd0a03.png" />
 </div>
 </div>
 <figure class="align-default">
@@ -1552,7 +1552,7 @@ respectively.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/81d4bbf75a495c99fbb2efb406ec82248af92b26f3a113a3af523fe7b99a93c4.png" src="_images/81d4bbf75a495c99fbb2efb406ec82248af92b26f3a113a3af523fe7b99a93c4.png" />
+<img alt="_images/f3654abbd4f95c860390a4658ec0a1a3ce0d4908b403997d82a9e81d89eca773.png" src="_images/f3654abbd4f95c860390a4658ec0a1a3ce0d4908b403997d82a9e81d89eca773.png" />
 </div>
 </div>
 <figure class="align-default">
